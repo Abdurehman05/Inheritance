@@ -26,9 +26,23 @@ namespace Inheritance
             };
 
             myTesla.Drive();
+            myTesla.Turn("Left");
+            myTesla.Stop();
+
             myZero.Drive();
+            myZero.Turn("Right");
+            myZero.Stop();
+
             myCessna.Drive();
+            myCessna.Turn("Left");
+            myCessna.Stop();
+
             myRam.Drive();
+            myRam.Turn("Right");
+            myRam.Stop();
         }
+
     }
 }
+
+

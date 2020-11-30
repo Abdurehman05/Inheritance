@@ -14,5 +14,9 @@ namespace Inheritance
         {
             Console.WriteLine($"The {MainColor} Zero drives fast. Drooom!");
         }
+        public override void Stop()
+        {
+            Console.WriteLine($"The {MainColor} Zero rolls to a stop.");
+        }
     }
 }

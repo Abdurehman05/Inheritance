@@ -13,6 +13,16 @@ namespace Inheritance
             Console.WriteLine("Vrooom!");
 
         }
+
+        public virtual void Turn(string direction)
+        {
+            Console.WriteLine($"The Vehicle  turns to {direction}!");
+        }
+
+        public virtual void Stop()
+        {
+            Console.WriteLine("The Vehicle Zero rolls to a stop!");
+        }
     }
 }
 

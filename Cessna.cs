@@ -16,5 +16,10 @@ namespace Inheritance
         {
             Console.WriteLine($"The {MainColor} Cessna drives fast. Zooommmm!");
         }
+
+        public override void Stop()
+        {
+            Console.WriteLine($"The white Cessna rolls to a stop as if it never moved.");
+        }
     }
 }
