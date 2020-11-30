@@ -3,17 +3,16 @@ using System.Collections.Generic;
 
 namespace Inheritance
 {
-    public class Tesla : Vehicle
+    public class Zero : Vehicle // Electric motorcycle
     {
         public double BatteryKWh { get; set; }
-
         public void ChargeBattery()
         {
-
+            // method definition omitted
         }
         public override void Drive()
         {
-            Console.WriteLine($"The {MainColor} Tesla drives fast. Vroooom!");
+            Console.WriteLine($"The {MainColor} Zero drives fast. Drooom!");
         }
     }
 }
